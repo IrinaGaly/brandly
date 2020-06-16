@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1430px, initial-scale=1.0">
+  <title>BRAND LY</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="_js/_js/.min.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="main.css">
+  <script src="_js/jquery.min.js"></script>
+  <script src="_js/jquery-ui.min.js"></script>
+  <script src="_js/js.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#size').buttonset();
+    }); 
+  </script>
+</head>
+<body>
+  <div class="wrapper">
+    <section class="hero">
+      <div class="container">
+        <header class="header">
+          <div class="header__logo logo">BRANDLY</div>
+          <nav class="header__nav nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Shop</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Brands</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main class="hero-section">
+          <div class="main">
+            <div class="main__collection">SPRING / SUMMER COLLECTION</div>
+            <h1 class="main__title">UP TO 60% DISCOUNT ON NEW ARRIVALS</h1>
+            <div class="main__description">TRENDING NEW ITEMS,FROM CREATORS AROUND THE WORLD</div>
+            <button class="main__btn btn">Shop now</button>
+            <div class="paginator paginator-white">
+              <nav class="paginator">
+                <ul class="paginator__list">
+                  <li class="paginator__item_white"><a href="#" class="paginator__link"></a></li>
+                  <li class="paginator__item_white-active"><a href="#" class="paginator__link"></a></li>
+                  <li class="paginator__item_white"><a href="#" class="paginator__link"></a></li>
+                  <li class="paginator__item_white"><a href="#" class="paginator__link"></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div> 
+        </main>
+      </div>
+    </section> 
+    <section class="section-two">
+      <div class="container container__latest">
+        <div class="latest">
+          <h2 class="latest__title title">Latest Products</h2>
+        </div>
+        <div class="latest__container">
+          <div class="latest__container_up">
+            <ul class="latest__list">
+              <li class="latest__item">
+                <a href="#" class="latest__link">
+                  <img src="../images/content/guy.png" alt="men" class="latest__img">
+                  <div class="latest__border">
+                  <h5 class="latest__title-min">Men</h5>
+                </div></a>
+              </li>
+              
+              <li class="latest__item">
+                <a href="#" class="latest__link">
+                  <img src="../images/content/ginger.png" alt="woman" class="latest__img">
+                <div class="latest__border">
+                  <h5 class="latest__title-min">Woman</h5>
+                </div></a>
+              </li>
+              
+              <li class="latest__item">
+                <a href="#" class="latest__link">
+                  <img src="/images/content/watch.png" alt="watch" class="latest__img">
+                <div class="latest__border">
+                  <h5 class="latest__title-min">Watches</h5>
+                </div></a>
+              </li>
+            </ul>
+          </div>
+          <div class="latest__container_down">
+            <div class="action">
+              <ul class="action__list">
+                <li class="action__item">
+                  <a href="#" class="action__link"><img src="../images/content/girl.png" alt="girl" class="action__img">
+                  <div class="action__content">
+                    <h5 class="action__desc">40% Off New Autumn Collection</h5>
+                  </div></a>
+                </li>
+                <li class="action__item">
+                  <a href="#" class="action__link"><img src="../images/content/air-girl.png" alt="air-girl" class="action__img">
+                  <div class="action__content">
+                    <h5 class="action__desc">MEGA SALE ON ITEMS FROM SPIRIT COLLECTION</h5>
+                  </div></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-three">
+      <div class="container container__trending">
+        <div class="trending">
+          <h2 class="trending__title title">Trending Items</h2>
+          <div class="trending__main">
+            <div class="trending__img">
+              <a href="#" class="trending__link"><img src="../images/content/suit.png" alt="suit" class="trending__img_pic"></a>
+            </div>
+            <div class="trending__content">
+              <div class="trending__shop">
+                <a href="#" class="trending__link"><h3 class="trending__shop_title title-min">NATHAN STEWART JACKET</h3></a>
+                <div class="trending__shop_undertitle">Summer/Autumn Collection</div>
+                <p class="trending__shop_desc">Classic Nathan Stewart Jacket from his latest collection.
+                  This item is loved by many just because of it’s simle style.
+                  Simple lines,lovely texture,it suits almost everybody. 
+                  It comes in six different colors,and all sizes.</p>
+                  <p class="trending__shop_tip"><b>FASHION TIP:</b>
+                  With this jacket,Nathan Stewart sunglasses go hand in hand!</p>
+              </div>
+              <div class="trending__choise" id="size">
+                <p><input name="dzen" type="radio" value="M">M</p>
+                <p><input name="dzen" type="radio" value="L">L</p>
+                <p><input name="dzen" type="radio" value="XL" checked>XL</p>
+                <p><input name="dzen" type="radio" value="XXL">XXL</p>
+              </div>
+              <div class="shop-now">
+                <button class="shop-now__btn btn">SHOP NOW</button>
+                <button class="shop-now__btn btn">SIZE GUIDE</button>
+              </div>
+            </div>
+          </div>
+          <div class="paginator">
+            <nav class="paginator paginator-red">
+              <ul class="paginator__list">
+                <li class="paginator__item_red"><a href="#" class="paginator__link"></a></li>
+                <li class="paginator__item-red-active"><a href="#" class="paginator__link"></a></li>
+                <li class="paginator__item_red"><a href="#" class="paginator__link"></a></li>
+                <li class="paginator__item_red"><a href="#" class="paginator__link"></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-four">
+      <div class="container container__blog">
+        <div class="blog">
+          <h2 class="title__blog title">From The Blog</h2>
+        </div>
+        <div class="blog__container">
+          <ul class="blog__list">
+            <li class="blog__item">
+              <img src="../images/content/xx.png" alt="mans in masks" class="blog__img">
+              <h3 class="blog__title title-min">GERMAN FASHION WIZARDS</h3>
+              <a href="#" class="by-designer">By James Steed   |   Fashion</a>
+              <p class="blog__desc">This week we had the chance of interviewing two creative artists from Germany. These guys are simply amazing at what they do with the 
+                European fashion scene and this year at Paris Fashion Week they 
+                introduced their new collection. </p>
+              <button class="blog__btn btn">READ MORE</button>
+            </li>
+            <li class="blog__item">
+              <img src="../images/content/glasses.png" alt="glasses" class="blog__img">
+              <h3 class="blog__title title-min">ANNE STEWART’S SUNGLASSES</h3>
+              <a href="#" class="by-designer">By Marry Beard   |   Trending</a>
+              <p class="blog__desc">Just amazing! That is how i can describe this person. So creative,so inspiring. I was watching her create in her small studio in London and i was amazed at how every little detail gets included in her creaions. From frames,to glass thickness she blew me away...</p>
+              <button class="blog__btn btn">READ MORE</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <h2 class="footer__title">SUBSCRIBE TO OUR NEWSLETTER TO RECEIVE LATEST NEWS AND OFFERS </h2>
+          <div class="form">
+            <input type="email" class="form__in" id="form">
+            <button class="form__btn btn">SUBSCRIBE</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section class="with-love">
+      <p class="with-love__title">Made with</p>
+    </section>
+  </div>
+</body>
+</html>
