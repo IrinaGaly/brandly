@@ -470,12 +470,14 @@ img {
 .section-four {
   margin-bottom: 59px;
 }
+
 .with-love {
   min-height: 161px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .with-love__title {
  color: #333333;
  font-size: 18px;
