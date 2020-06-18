@@ -56,7 +56,7 @@ img {
   flex-direction: column;
 }
 .wrapper {
-  background: url(../images/bg/bg-main.png) center top no-repeat;
+  background: url(images/bg/bg-main.png) center top no-repeat;
 }
 .main {
   display: flex;
@@ -353,7 +353,7 @@ img {
   flex-direction: row;
 }
 .section-three {
-  background:  url(../images/bg/bg-center.png) no-repeat;
+  background:  url(images/bg/bg-center.png) no-repeat;
   min-height: 919px;
 }
 .trending__img_pic {
@@ -438,7 +438,7 @@ img {
   opacity: 0.1;
 }
 .footer {
-  background: url(../images/bg/bg-footer.png) no-repeat center;
+  background: url(images/bg/bg-footer.png) no-repeat center;
   opacity: 0.6;
   min-height: 250px;
 }
@@ -484,6 +484,6 @@ img {
  font-size: 18px;
 }
 .with-love__title:after {
-  content: url(../images/icons/heart.png);
+  content: url(images/icons/heart.png);
   margin-left: 10px;
 }
